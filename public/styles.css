@@ -32,7 +32,7 @@ a, a:hover, a:focus {
     max-width: 250px;
     position:fixed; 
     height: 100vh;
-    background-color: #3D3D3D;
+    background-image: linear-gradient(#208EEB, #0E4F85);
     z-index: 999;
     top: 0;
     left: 0;
@@ -49,17 +49,13 @@ a, a:hover, a:focus {
 }
 
 #sidebar .sidebar-header {
-    padding: 30px 20px;
-    background: #3D3D3D;
-    border-bottom: 1px solid #fff;
-}
-
-#sidebar .sidebar-header a h4 {
-    margin: 0;
+    padding: 20px;
+    background: #208EEB;
 }
 
 #sidebar ul.components {
-    padding: 10px 0;
+    padding: 20px 0;
+    border-bottom: 1px solid #47748b;
 }
 
 #sidebar.active {
@@ -71,7 +67,7 @@ a, a:hover, a:focus {
     font-size: 1.1em;
     display: block;
     font-size: 15px;
-    color: #f0f0f0 !important
+    color: #A6D2F7 !important
 }
 
 #sidebar i {
@@ -121,19 +117,16 @@ nav div.container-fluid {
     position: absolute;
     bottom: 0;
     margin-left: 10px;
-    padding: 10px;
+    padding: 10px
 }
 
 button.btn-exit {
     font-size: 17px;
     background: none;
-    color:#f0f0f0;
-    display: flex;
-    align-items: center;
+    color:#A6D2F7
 }
 
 .content {
-    margin-left: 120px;
-    width: 100%;
+    margin-left: 250px;
 }
 
